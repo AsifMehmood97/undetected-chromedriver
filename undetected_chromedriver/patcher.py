@@ -174,7 +174,6 @@ class Patcher(object):
             pass
 
         release = self.fetch_release_number()
-        print("Release: ", release)
         self.version_main = release.version[0]
         self.version_full = release
         self.unzip_package(self.fetch_package())
